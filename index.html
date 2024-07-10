@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <!-- this for bootstrap file  -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+<!-- for icons -->
+<link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.min.css">
+
+    <!-- this for css file -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="text-center mt-lg-5">
+        <h1 >Bookmarker </h1>
+    </header>
+    <div class="container  mt-5 d-flex justify-content-center align-content-center ">
+        <ul>
+            <li class="list-unstyled">        <i class="fa-solid fa-bookmark m-1"></i>
+            </li>
+           </ul>
+        <p> Bookmark your favorite sites </p>
+        <ul class="ps-0 ">
+            <li class="list-unstyled"><i class="fa-solid fa-bookmark m-1 "></i>
+            </li>
+           </ul>
+    </div>
+    
+    <div class="content">
+       
+        <div class="inner1">
+            <div class="mb-3">
+                <label for="siteName" class="form-label "> <i class="fa-solid fa-book-bookmark" ></i> Site Name</label>
+                <input type="text" class="form-control" id="siteName" placeholder="Bookmark Name">
+              </div>
+        </div>
+        <div class="inner2">
+            <div class="mb-3">
+                <label for="siteURL" class="form-label"><i class="fa-solid fa-link" ></i>Site URL</label>
+                <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+              </div>
+        </div>
+        <div class="inner3 text-center">
+            <button type="submit" class="btn btn-danger" onclick="addWebsite();">Submit</button>
+    
+
+    </div>
+    
+    
+
+
+    </div>
+    <table class="table container mt-3" >
+      <thead>
+        <tr>
+          <th scope="col">Index</th>
+          <th scope="col">Website Name	</th>
+          <th scope="col">Visit</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody id="rowData">
+       
+
+
+      </tbody>
+     
+    </table>
+
+   
+    
+
+
+   
+
+
+
+
+
+
+
+    <!-- this for js bootstrap -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- this for my file js  -->
+    <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color:#f8edde;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #352e28;
+    border-bottom: black dotted ;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2%;
+    /* background-color: #fec260; */
+
+
+}
+
+
+
+p{
+    font-family: "Righteous", sans-serif;
+    background: linear-gradient(to right,green,yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.content{
+    border-bottom: dotted black;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+}
+.inner3 button{
+    width: 20% !important;
+}
